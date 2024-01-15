@@ -19,4 +19,9 @@ This app include three parts.
 !pip install plotly
 ```
 
-
+## Run the web server
+* navigate to the correct folder
+* make sure you have run `Required Package Download` at least once
+```python
+streamlit run Groupwebsite.py
+```
