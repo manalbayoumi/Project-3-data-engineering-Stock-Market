@@ -61,8 +61,8 @@ Google=Database_to_Frame("Google_price")
 **DataFrame Sample**   
 ![Google dataframe sample](./sample_pic_resources/google_stock_sample.png)   
 **Plotting Sample**   
-![Google plotting sample](./sample_pic_resources/google_candle_sample.png)  
-![Google plotting sample](./sample_pic_resources/google_bubble_sample.png)   
+![Google plotting sample](./sample_pic_resources/google_candle_sample.PNG)  
+![Google plotting sample](./sample_pic_resources/google_bubble_sample.PNG)   
 From the previous picture    
 * Google stock has total increase in 2023
 * The largest gain day is 
