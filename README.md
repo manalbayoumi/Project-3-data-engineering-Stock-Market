@@ -47,7 +47,7 @@ Original data of Apple example:
 Apple stock ready for database:   
 ![apple stock after ETL](./sample_pic_resources/after_ETL.png)  
 After creating the database, please find here-beneath the ERD diagram   
-![ERD](./ERD diagram.jpg)    
+![ERD](./'ERD diagram.jpg')    
 ---
 **Part Two Database to Pandas**
 This is a jupyter notebook file, at this stage, all data have already been loaded into database `Group_Project_3.db`. User can extract data using query tools or python sql packages to extract data to display.  
