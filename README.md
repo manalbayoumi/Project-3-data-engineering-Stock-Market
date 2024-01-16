@@ -7,11 +7,12 @@ Manal Bayoumi, Rocio Cantu, and Melissa Mosby.
 Our project will analyze the stock data for different companies: Alphabet Inc. (aka Google), Apple Inc., Intel Corporation, Microsoft Corporation, and Oracle Corporation. Also, it will price and volume of purchase for these stocks on different dates. 
 
 ## That project will determine various questions when analyzing these stocks:
-•  How do investors pick up their stocks?
-•  In buying and selling stocks, do investors depend on the opening or the closing prices of stocks?
-•  What factors make stock prices rise or fall for a company like Apple, Google, Intel, Oracle, Microsoft?
-•  What is the % of change for stocks for a company like Apple, Google, Intel, Oracle, Microsoft ?
-Our analysis will follow a data engineering track. We will employ jupyter notebook and pandas to capture and modify our data using ELT workflows. Next, we will feed our data into SQL. Also, we will generate an ERD diagram to show the relationships of our database tables. We will create a method to read our data from the database with pandas DataFrame.    
+* How do investors pick up their stocks?
+* In buying and selling stocks, do investors depend on the opening or the closing prices of stocks?
+* What factors make stock prices rise or fall for a company like Apple, Google, Intel, Oracle, Microsoft?
+* What is the % of change for stocks for a company like Apple, Google, Intel, Oracle, Microsoft ?
+
+* Our analysis will follow a data engineering track. We will employ jupyter notebook and pandas to capture and modify our data using ELT workflows. Next, we will feed our data into SQL. Also, we will generate an ERD diagram to show the relationships of our database tables. We will create a method to read our data from the database with pandas DataFrame.    
 
 ---
 ## Required Package Download
