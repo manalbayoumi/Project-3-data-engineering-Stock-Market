@@ -26,7 +26,7 @@ Our project will analyze the stock data for different companies: Alphabet Inc. (
 ## Instructions   
 ---
 **Part One_ETL.ipynb**   
-This is a jupyter notebook file, with this file, user can download stock data from Yahoo finiance API and then save to SQLite3 database.   
+This is a jupyter notebook file, with this file, user can download stock data from Yahoo finance API and then save to SQLite3 database.   
 Data from API include   
 * data
 * Open
@@ -45,7 +45,9 @@ To make it more efficent for analysing, use `ETL` to transform data, including
 Original data of Apple example:   
 ![apple stock before ETL](./sample_pic_resources/before_ETL.png)   
 Apple stock ready for database:   
-![apple stock after ETL](./sample_pic_resources/after_ETL.png)     
+![apple stock after ETL](./sample_pic_resources/after_ETL.png)  
+After creating the database, please find here-beneath the ERD diagram   
+![ERD](./ERD diagram.jpg)    
 ---
 **Part Two Database to Pandas**
 This is a jupyter notebook file, at this stage, all data have already been loaded into database `Group_Project_3.db`. User can extract data using query tools or python sql packages to extract data to display.  
