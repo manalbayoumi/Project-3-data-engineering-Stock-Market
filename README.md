@@ -65,8 +65,8 @@ Google=Database_to_Frame("Google_price")
 ![Google plotting sample](./sample_pic_resources/google_bubble_sample.PNG)   
 From the previous picture    
 * Google stock has total increase in 2023
-* The largest gain day is 
-* The largest loss day is   
+* The largest gain day is February 2,2023. Investor gains 7%.
+* The largest loss day is October 25,2023. Investor losses 9%.  
 ---
 Part III Groupwebsite.py
 For better user experience, our group build a interactive webpage with a streaming package not covered in the lecture called streamlit, this package use javascript plotly package build web.
@@ -87,26 +87,26 @@ streamlit run Groupwebsite.py
 ```
 
 ## There are several reasons why my group decided to use SQLite:
-•  SQLite is a SQL based database that can create a single database file that can easily be uploaded to GitHub and shared with other group members.
-•  SQLite facilities the work when using multiple databases. 
-•  We can DB Browser read SQLite file and check if the file performs well.
-•  SQLite is small like a paper; however, the other SQL is a big library. 
-•  Download DB Browser at this link https://sqlitebrowser.org.
+* SQLite is a SQL based database that can create a single database file that can easily be uploaded to GitHub and shared with other group members.
+* SQLite facilities the work when using multiple databases. 
+* We can DB Browser read SQLite file and check if the file performs well.
+* SQLite is small like a paper; however, the other SQL is a big library. 
+* Download DB Browser at this link https://sqlitebrowser.org.
 
 ## Why SQL is better than MongoDB?
-Using SQL over NoSQL in that project is better because stock databases are saved in a table form. SQL can perform analytical queries, such as filters, joins, merges, and aggression on the data. SQL databases are better for multi-row transactions, while NoSQL is better for unstructured data (Smallcombe, 2023).
+* Using SQL over NoSQL in that project is better because stock databases are saved in a table form. SQL can perform analytical queries, such as filters, joins, merges, and aggression on the data. 
+* SQL databases are better for multi-row transactions, while NoSQL is better for unstructured data (Smallcombe, 2023).
 
 ## Project Ethical Considerations:
-There are several efforts for ethical considerations made in the project, such as acknowledging the contribution of others when using data. By that, we mean that we site the code of others if we use it. 
-In dealing with data, the data analysts must be transparent when analyzing data free from biased. 
+* There are several efforts for ethical considerations made in the project, such as acknowledging the contribution of others when using data. By that, we mean that we site the code of others if we use it. In dealing with data, the data analysts must be transparent when analyzing data free from biased. 
 
 ## References
-“Alphabet Inc. (GOOG) Stock Historical Prices & Data.” Yahoo! Finance, Yahoo!, 16 Jan. 2024, https://finance.yahoo.com/quote/GOOG/history?p=GOOG 
-“Apple Inc. (AAPL) Stock Historical Prices & Data.” Yahoo! Finance, Yahoo!, 16 Jan. 2024, https://finance.yahoo.com/quote/AAPL/history?p=AAPL
-“Intel Corporation Stock. (INTC) Stock Historical Prices & Data.” Yahoo! Finance, Yahoo!, 16 Jan. 2024, https://finance.yahoo.com/quote/INTC/history?p=INTC
-“Microsoft Corporation Stock. (MSFT) Stock Historical Prices & Data.” Yahoo! Finance, Yahoo!, 16 Jan. 2024, https://finance.yahoo.com/quote/MSFT/history?p=MSFT
-“Oracle Corporation Stock. (ORCL) Stock Historical Prices & Data.” Yahoo! Finance, Yahoo!, 16 Jan. 2024, https://finance.yahoo.com/quote/ORCL/history?p=ORCL
-Smallcombe, Mark. “SQL VS NOSQL: 5 Critical Differences.” Integrate.Io, 9 Nov. 2023, www.integrate.io/blog/the-sql-vs-nosql-difference/#two. 
+* “Alphabet Inc. (GOOG) Stock Historical Prices & Data.” Yahoo! Finance, Yahoo!, 16 Jan. 2024, https://finance.yahoo.com/quote/GOOG/history?p=GOOG 
+* “Apple Inc. (AAPL) Stock Historical Prices & Data.” Yahoo! Finance, Yahoo!, 16 Jan. 2024, https://finance.yahoo.com/quote/AAPL/history?p=AAPL
+* “Intel Corporation Stock. (INTC) Stock Historical Prices & Data.” Yahoo! Finance, Yahoo!, 16 Jan. 2024, https://finance.yahoo.com/quote/INTC/history?p=INTC
+* “Microsoft Corporation Stock. (MSFT) Stock Historical Prices & Data.” Yahoo! Finance, Yahoo!, 16 Jan. 2024, https://finance.yahoo.com/quote/MSFT/history?p=MSFT
+* “Oracle Corporation Stock. (ORCL) Stock Historical Prices & Data.” Yahoo! Finance, Yahoo!, 16 Jan. 2024, https://finance.yahoo.com/quote/ORCL/history?p=ORCL
+* Smallcombe, Mark. “SQL VS NOSQL: 5 Critical Differences.” Integrate.Io, 9 Nov. 2023, www.integrate.io/blog/the-sql-vs-nosql-difference/#two. 
 
 
 
