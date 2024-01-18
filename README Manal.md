@@ -20,11 +20,11 @@ First, you need to download the yahoo finance and pandas-data reader packages. I
 
 ## Project is divided into three parts
 This app include three parts.   
-1. PartI ETL
+1. Part I ETL
    * this is a jupyter file, follow ETL principle extract data from yahoo finance, transform data by python pandas library, then load into a sqlite database
-2. PartII Display
+2. Part II Display
    * this is another jupyter file, download data from database and display for users
-3. PartIII Web with plotly.js library
+3. Part III Web with plotly.js library
    * this is a python file, using steamlit and plotly.js, which is not covered in the lecture.
 
 ## Required Package Download
