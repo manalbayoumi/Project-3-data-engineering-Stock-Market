@@ -4,13 +4,13 @@
 Manal Bayoumi, Rocio Cantu, and Melissa Mosby.
 
 # Project Overview: 
-Our project will analyze the stock data for different companies: Alphabet Inc. (aka Google), Apple Inc., Intel Corporation, Microsoft Corporation, and Oracle Corporation. Also, it will price and volume of purchase for these stocks on different dates. 
+Our project will analyze the stock data for different companies: Alphabet Inc. (aka Google), Apple Inc., Intel Corporation, Microsoft Corporation, and Oracle Corporation. Also, it will show the price and volume for these stocks on different dates. 
 
 ## That project will determine various questions when analyzing these stocks:
 * How do investors pick up their stocks?
 * In buying and selling stocks, do investors depend on the opening or the closing prices of stocks?
 * What factors make stock prices rise or fall for a company like Apple, Google, Intel, Oracle, Microsoft?
-* What is the % of change for stocks for a company like Apple, Google, Intel, Oracle, Microsoft ?
+
 
 * Our analysis will follow a data engineering track. We will employ jupyter notebook and pandas to capture and modify our data using ELT workflows. Next, we will feed our data into SQL. Also, we will generate an ERD diagram to show the relationships of our database tables. We will create a method to read our data from the database with pandas DataFrame.    
 
@@ -101,7 +101,7 @@ streamlit run Groupwebsite.py
 * SQL databases are better for multi-row transactions, while NoSQL is better for unstructured data (Smallcombe, 2023).
 
 ## Project Ethical Considerations:
-* There are several efforts for ethical considerations made in the project, such as acknowledging the contribution of others when using data. By that, we mean that we site the code of others if we use it. In dealing with data, the data analysts must be transparent when analyzing data free from biased. 
+* There are few ethical considerations made in the project since the data that we use is a public data. In dealing with data, the data analysts must be transparent when analyzing data free from biased. 
 
 ## References
 * “Alphabet Inc. (GOOG) Stock Historical Prices & Data.” Yahoo! Finance, Yahoo!, 16 Jan. 2024, https://finance.yahoo.com/quote/GOOG/history?p=GOOG 
