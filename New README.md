@@ -4,37 +4,22 @@
 Manal Bayoumi, Rocio Cantu, and Melissa Mosby.
 
 # Project Overview: 
-Our project will analyze the stock data for different companies: Alphabet Inc. (aka Google), Apple Inc., Intel Corporation, Microsoft Corporation, and Oracle Corporation. Also, it will show the price and volume for these stocks on different dates. 
+Our project follows the data engineering track by looking at historcial stock prices for these five companies: Alphabet Inc. (aka Google), Apple Inc., Intel Corporation, Microsoft Corporation, and Oracle Corporation.
 
-## That project will determine various questions when analyzing these stocks:
-* How do investors pick up their stocks?
-* In buying and selling stocks, do investors depend on the opening or the closing prices of stocks?
-* What factors make stock prices rise or fall for a company like Apple, Google, Intel, Oracle, Microsoft?
+Here is a high-level outline of our project:
+  - Obtain stock price information,
+  - Clean and modify the data,
+  - Load the data into a database (SQLite3),
+  - Generate an ERD,
+  - Create HTML.
 
+# Instructions   
 
-* Our analysis will follow a data engineering track. We will employ jupyter notebook and pandas to capture and modify our data using ELT workflows. Next, we will feed our data into SQL. Also, we will generate an ERD diagram to show the relationships of our database tables. We will create a method to read our data from the database with pandas DataFrame.    
-
----
-## Required Package Download
-*Please run the following command in jupyter or bash terminal*
-```bash
-!pip install yfinance
-!pip install pandas-datareader
-!pip install streamlit --upgrade
-!pip install plotly
-```
-## Instructions   
----
-**Part One_ETL.ipynb**   
-This is a jupyter notebook file, with this file, user can download stock data from Yahoo finance API and then save to SQLite3 database.   
-Data from API include   
-* data
-* Open
-* Close
-* High
-* Low 
-* Volume      
-To make it more efficent for analysing, use `ETL` to transform data, including
+## Part One: ETL (ETL.ipynb)   
+Our ETL.ipyis a jupyter notebook file, with this file, user can download stock data from Yahoo finance API and then save to SQLite3 database.   
+The columns that are provided by the Yahoo Finance Data API are: date, open, close, high, low and volume.
+      
+To make it more efficient for analyzing, use `ETL` to transform data, including
 * Adding addtional column
    * stock_ticker: for easily identify stocks
    * normalization: for comparing different stock gain and loss
