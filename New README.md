@@ -16,25 +16,25 @@ Here is a high-level outline of our project:
 # Instructions   
 
 ## Part One: ETL (ETL.ipynb)   
-Our ETL.ipyis a jupyter notebook file, with this file, user can download stock data from Yahoo finance API and then save to SQLite3 database.   
-The columns that are provided by the Yahoo Finance Data API are: date, open, close, high, low and volume.
+With our ETL jupyter notebook file, the user can download stock data from Yahoo Finance API and then save it to SQLite3 database. The columns that are provided by the Yahoo Finance Data API are: date, open, close, high, low and volume.
       
-To make it more efficient for analyzing, use `ETL` to transform data, including
-* Adding addtional column
-   * stock_ticker: for easily identify stocks
-   * normalization: for comparing different stock gain and loss
-   * percentage_change: to determine which is the best and worst day to invest
-   * accumulative_return: to determine how investor get return from the market
-* Changing datatype for database to record
-* remove redundant floating point.   
-Original data of Apple example:   
+Next ETL jupyter notebook file, will transform data by: changing the dollar decimals from 6 points to 2 points, removing a redundant floating point, and adding the following columns:
+  - stock ticker,
+  - normalization: compares different stock gain and loss,
+  - percentage change: shows when might be the best and worst day to invest,
+  - accumulative return: to determine how investor get return from the market.
+
+Here is an example of the original data for Apple Inc.:
 ![apple stock before ETL](./sample_pic_resources/before_ETL.png)   
-Apple stock ready for database:   
+
+Here is an example of the transformed data for Apple Inc.:   
 ![apple stock after ETL](./sample_pic_resources/after_ETL.png)  
-After creating the database, please find here-beneath the ERD diagram   
+
+After creating the database, please find the ERD diagram:   
 ![ERD](./sample_pic_resources/ERDdiagram.jpg)    
 ---
-**Part Two Database to Pandas**
+
+## Part Two: Database to Pandas
 This is a jupyter notebook file, at this stage, all data have already been loaded into database `Group_Project_3.db`. User can extract data using query tools or python sql packages to extract data to display.  
 **With the sample code, user use pandas and sqlite library, extract data from database and display with dataframe**  
 ```python
@@ -56,7 +56,7 @@ From the previous picture
 * The largest gain day is February 2,2023. Investor gains 7%.
 * The largest loss day is October 25,2023. Investor losses 9%.  
 ---
-Part III Groupwebsite.py
+# Part Three: Groupwebsite.py
 For better user experience, our group build a interactive webpage with a streaming package not covered in the lecture called streamlit, this package use javascript plotly package build web.
 Please make sure the following command run at least once to install the package
 ```bash
